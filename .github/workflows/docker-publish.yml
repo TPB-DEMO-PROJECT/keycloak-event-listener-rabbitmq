@@ -14,6 +14,7 @@ jobs:
 
       - name: Build the Keycloak Docker image with RabbitMQ event publisher SPI
         run: |
-          docker build . --tag ghcr.io/TPB-DEMO-PROJECT/keycloak-event-listener-rabbitmq/kc-with-spi:latest
-          docker run ghcr.io/TPB-DEMO-PROJECT/keycloak-event-listener-rabbitmq/kc-with-spi:latest
-          docker push ghcr.io/TPB-DEMO-PROJECT/keycloak-event-listener-rabbitmq/kc-with-spi:latest
+          docker build . --tag ghcr.io/tpb-demo-project/kc-with-spi:latest
+          docker push ghcr.io/tpb-demo-project/kc-with-spi:latest
+#          docker run ghcr.io/tpb-demo-project/keycloak-event-listener-rabbitmq/kc-with-spi:latest
+
